@@ -23,6 +23,9 @@ Segurança: O sistema precisa proteger os dados dos usuários e permitir que som
     
 ### Manutenibilidade e Evolução
 
+* *Manutenção mais provável:* Evolutiva e Adaptativa.
+* *Exemplo concreto:* Nos primeiros anos, haverá forte manutenção *evolutiva* para adicionar recursos como integração de pagamentos (PIX) para divisão de combustível, ou rotas exclusivas para eventos da faculdade. Também ocorrerá manutenção *adaptativa* contínua para atualizar o aplicativo conforme novas versões dos sistemas operacionais (Android/iOS) ou atualizações nas APIs de mapas (como Google Maps).
+  
 ### Boas Práticas Gerais
 
 * **Documentação:** O grupo documentaria as decisões de arquitetura importantes, como a escolha do banco de dados geográfico, e manteria uma documentação clara da API para alinhar o trabalho entre frontend e backend.

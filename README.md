@@ -25,3 +25,6 @@ Segurança: O sistema precisa proteger os dados dos usuários e permitir que som
 
 ### Boas Práticas Gerais
 
+* **Documentação:** O grupo documentaria as decisões de arquitetura importantes, como a escolha do banco de dados geográfico, e manteria uma documentação clara da API para alinhar o trabalho entre frontend e backend.
+* **Versionamento:** Uso do Git com um fluxo de trabalho estruturado, garantindo que a branch `main` sempre tenha código funcional. As mensagens de commit seguiriam um padrão descritivo (ex: `feat: adiciona filtro de caronas apenas para mulheres`).
+* **Padronização:** Adoção de nomenclaturas em inglês para o código fonte (classes, métodos e variáveis) e uso de ferramentas de formatação automática para que todo o código tenha a mesma "cara", independentemente de qual integrante escreveu.

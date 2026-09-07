@@ -10,7 +10,12 @@ Este projeto consiste em um aplicativo projetado para conectar estudantes e func
 ## 3. Aplicação dos Quatro Princípios
 
 ### Modularidade e Abstração
-
+Módulos prováveis do sistema com responsabilidades bem separadas:
+* Autenticação e Perfil: Responsável por login, validação de vínculo universitário (e-mail institucional) e dados do usuário.
+* Gestão de Rotas (Match): Algoritmo que cruza origens, destinos e horários para sugerir as melhores caronas.
+* Mensageria: Módulo isolado de chat entre motorista e passageiro após confirmação da carona.
+* Reputação e Avaliação: Sistema de notas e feedbacks para garantir um ambiente seguro.
+* Notificações: Alertas em tempo real (push notifications) sobre o status da viagem.
 
 ### Qualidade de Software
 Os principais pontos de qualidade que considero importantes para esse sistema são:

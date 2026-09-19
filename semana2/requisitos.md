@@ -16,17 +16,17 @@
 
 | Campo | Preencher |
 |---|---|
-| Grupo | |
-| Integrantes | |
+| Grupo | Equipe 4 |
+| Integrantes | Lariça Geórgia, José Eduardo, Douglas Karan, Carlos Jefferson, Antônio Hércules |
 | Disciplina | Engenharia de Software I |
 | Semana | 2 |
-| Data | |
+| Data | 19/09/2026 |
 
 ## 2. O Sistema
 
 Descrevam em 2 a 3 frases o sistema fictício que o grupo adotou.
 
-> _(escrever aqui)_
+> _Aplicativo de caronas universitárias é um projeto para conectar estudantes e funcionários que oferecem e buscam caronas para a universidade. O objetivo é promover segurança, economia de custos, redução de trânsito e sustentabilidade._
 
 ---
 

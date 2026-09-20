@@ -42,6 +42,8 @@ Descrevam em 2 a 3 frases o sistema fictício que o grupo adotou.
 | RF-06 | |
 | RF-07 | |
 | RF-08 | |
+| RF-09 | O sistema deve permitir que o **passageiro** atribua uma nota de 1 a 5 ao motorista após a conclusão do trajeto.
+| RF-10 | O sistema deve permitir que o **motorista** atribua uma nota de 1 a 5 ao passageiro após a conclusão do trajeto.
 
 <!--
 Exemplo de como preencher (apagar esta linha e o exemplo abaixo depois):
@@ -56,9 +58,9 @@ RF-01 | O sistema deve permitir que o usuário reserve uma quadra num horário d
 | RNF-02 |Usabilidade|A interface do aplicativo deve se adaptar automaticamente (design responsivo) a telas de dispositivos móveis com resoluções entre 320x568 pixels e 1440x3200 pixels.|
 | RNF-03 | | |
 | RNF-04 | | |
-| RNF-05 | | |
-| RNF-06 | | |
-| RNF-07 |Portabilidade| O aplicativo cliente deve ser compatível para execução em dispositivos móveis que operem com o sistema operacional iOS. |
+| RNF-05 |Segurança / Restrição Legal| O aplicativo deve exibir, no primeiro acesso, um Termo de Uso que declare explicitamente a proibição de uso da plataforma para fins lucrativos.|
+| RNF-06 |Portabilidade| O aplicativo cliente deve ser compatível para execução em dispositivos móveis que operem com o sistema operacional Android (versão 10 ou superior).|
+| RNF-07 |Portabilidade| O aplicativo cliente deve ser compatível para execução em dispositivos móveis que operem com o sistema operacional iOS.|
 
 **Categorias possíveis:** Desempenho · Confiabilidade · Usabilidade · Segurança · Manutenibilidade · Portabilidade
 
@@ -77,7 +79,8 @@ Indiquem, quando fizer sentido, qual requisito não-funcional qualifica qual req
 |---|---|
 | RF-01 | RNF02,RNF03,RNF05,RNF06,RNF07 |
 | RF-02 | |
-
+| RF-08 | RNF-03
+| RF-09 e RF-10 | RNF-02 e RNF-06/RNF-07
 ---
 
 ### Checklist antes de entregar

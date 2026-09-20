@@ -49,6 +49,14 @@ Requisitos consolidados no [Requisitos.md](requisitos.md):
 ---
 
 ## 3. Viabilidade Técnica
+A equipe possui conhecimentos básicos para desenvolvimento mobile e backend, tornando a construção de um aplicativo de caronas (que envolve perfis de usuários, criação de viagens e sistema de avaliações) realizável. O desenvolvimento deverá abranger as plataformas Android (RNF-06) e iOS (RNF-07), sendo recomendada a utilização de frameworks multiplataforma (como React Native ou Flutter) para evitar duplicar o esforço na criação do aplicativo cliente e adaptar-se melhor a múltiplas resoluções de tela (RNF-02).
+
+
+O maior desafio técnico identificado é a obrigatoriedade de integração com o sistema de autenticação da universidade (RF-01 e RF-02). Esse tipo de integração exige que a instituição libere acesso a chaves de API, ambientes de homologação e documentação que nem sempre estão disponíveis abertamente, podendo atrasar ou inviabilizar o login se houver burocracia excessiva. Outro ponto é a segurança no armazenamento de dados sensíveis e autenticação (RNF-03). Por fim, o requisito de resposta em até 3 segundos nas buscas por viagens (RNF-01) exigirá consultas espaciais eficientes caso o sistema integre localizações no mapa.
+
+
+**Risco identificado:** Dificuldades burocráticas ou técnicas de integração com o sistema de autenticação da universidade e garantia de consultas de busca otimizadas.
+**Mitigação:** Iniciar o contato com a TI da universidade o mais cedo possível para alinhar o acesso ao sistema de autenticação da universidade, e criar provas de conceito antecipadas da busca no banco de dados.
 
 
 

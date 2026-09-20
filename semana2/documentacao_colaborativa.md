@@ -11,6 +11,10 @@
    *   **Persona:** Prof. Roberto, 55 anos, Pró-Reitor de Assuntos Estudantis.
    *   **O que quer do sistema:** Uma solução de baixo custo operacional que melhore a mobilidade, promova a sustentabilidade e reduza a superlotação do estacionamento do campus.
    *   **O que o frustra hoje:** O alto custo financeiro com o fretamento de ônibus universitários e as constantes reclamações de falta de vagas de estacionamento.
+**Stakeholder Externo (Regulador)(Jefferson):**
+   *   **Persona:** Inspetor Carlos, 45 anos, representante do órgão de trânsito local.
+   *   **O que quer do sistema:** Garantir que o aplicativo não configure transporte pirata/clandestino, deixando claro que é uma carona solidária (sem fins lucrativos).
+   *   **O que o frustra hoje:** Aplicativos informais ou grupos de WhatsApp onde motoristas sem licença e sem seguro adequado cobram tarifas similares às de táxi/Uber para transportar alunos.
 
 
 ## 2. Entrevistas (Notas do Engenheiro de Requisitos)

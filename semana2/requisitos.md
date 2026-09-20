@@ -38,8 +38,8 @@ Descrevam em 2 a 3 frases o sistema fictício que o grupo adotou.
 | RF-02 | |
 | RF-03 | O sistema deve calcular um valor máximo financeiro para o rateio de cada viagem com base na quilometragem total do trajeto percorrido. |
 | RF-04 | O sistema deve exibir o valor máximo financeiro calculado para o rateio de cada viagem. |
-| RF-05 | |
-| RF-06 | |
+| RF-05 | O sistema deve permitir que um passageiro solicite a reserva de uma vaga em uma viagem previamente ofertada. |
+| RF-06 | O sistema deve permitir que o motorista aprove solicitações de carona recebidas para a sua viagem. |
 | RF-07 | O sistema deve permitir que o motorista recuse solicitações de carona recebidas para a sua viagem. |
 | RF-08 | O sistema deve armazenar o histórico de viagens concluídas contendo a data, o horário, o identificador do motorista e os identificadores dos passageiros embarcados. |
 | RF-09 | O sistema deve permitir que o **passageiro** atribua uma nota de 1 a 5 ao motorista após a conclusão do trajeto. |
@@ -56,7 +56,7 @@ RF-01 | O sistema deve permitir que o usuário reserve uma quadra num horário d
 |---|---|---|
 | RNF-01 | | |
 | RNF-02 |Usabilidade|A interface do aplicativo deve se adaptar automaticamente (design responsivo) a telas de dispositivos móveis com resoluções entre 320x568 pixels e 1440x3200 pixels.|
-| RNF-03 | | |
+| RNF-03 |Segurança |O sistema deve garantir a confidencialidade dos dados sensíveis dos usuários (como senhas e tokens de acesso) por meio de criptografia forte quando armazenados de forma persistente. |
 | RNF-04 |Confiabilidade|O sistema deve manter uma disponibilidade (uptime) mínima de 99,5% do tempo durante os dias letivos (segunda a sábado, das 06:00 às 23:59).|
 | RNF-05 |Segurança / Restrição Legal| O aplicativo deve exibir, no primeiro acesso, um Termo de Uso que declare explicitamente a proibição de uso da plataforma para fins lucrativos.|
 | RNF-06 |Portabilidade| O aplicativo cliente deve ser compatível para execução em dispositivos móveis que operem com o sistema operacional Android (versão 10 ou superior).|
@@ -78,7 +78,8 @@ Indiquem, quando fizer sentido, qual requisito não-funcional qualifica qual req
 | RF | RNF relacionado(s) |
 |---|---|
 | RF-01 | RNF02,RNF03,RNF05,RNF06,RNF07 |
-| RF-02 | |
+| RF-03 | |
+| RF-05 |RNF02 E RNF-06/RNF-07 |
 | RF-06 e RF-07 | RNF-02 e RNF-06/RNF-07 |
 | RF-08 | RNF-03
 | RF-09 e RF-10 | RNF-02 e RNF-06/RNF-07

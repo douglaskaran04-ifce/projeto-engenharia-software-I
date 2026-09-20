@@ -26,7 +26,7 @@
 
 Aplicativo de caronas voltado para a comunidade universitária, permitindo que estudantes e funcionários ofereçam e solicitem caronas entre si. O sistema tem como objetivo facilitar o deslocamento, dividir custos de forma justa sem fins lucrativos, e garantir a segurança através da restrição de acesso apenas por autenticação institucional (SSO).
 
-Requisitos consolidados no requisitos.md:
+Requisitos consolidados no [Requisitos.md](requisitos.md):
 
 ### Requisitos Funcionais (RF)
 
@@ -57,15 +57,17 @@ Requisitos consolidados no requisitos.md:
 
 
 ## 5. Viabilidade Operacional
+Muitos usuários (estudantes, professores e funcionários) já são usuários assíduos de apps de transporte (Uber, 99) ou carona (BlaBlaCar), o que significa que o fluxo do aplicativo, desde solicitar reservas (RF-05) até o sistema de avaliações bilaterais (RF-09, RF-10), é extremamente familiar. A curva de aprendizagem tende a ser rápida.
 
-
+Haveria inicialmente natural desconfiança quanto à segurança de embarcar no carro de um "desconhecido". Contudo, o diferencial operacional é o filtro institucional: ao exigir autenticação via SSO (RF-01, RF-02), o sistema garante que apenas membros da comunidade universitária utilizem o app, o que cria um "filtro de segurança" forte. Somado ao fato de motoristas poderem aprovar e recusar solicitações de carona (RF-06, RF-07) e das avaliações pós-viagem, a confiança tende a se estabelecer rapidamente.
 
 ---
+
 
 ## 6. Conclusão
 
 - [ ] Viável
-- [ ] Viável com ressalvas
+- [X] Viável com ressalvas
 - [ ] Não viável
 
-
+O projeto de caronas universitárias é altamente justificável em sua viabilidade operacional e nos seus propósitos econômico-sociais. No entanto, é considerado "viável com ressalvas" devido ao alto nível de dependência de terceiros (neste caso, a burocracia e disponibilidade da TI da universidade) para concretizar os requisitos centrais de cadastro e login. Se a universidade negar integração, o pilar de segurança e restrição de público precisará ser repensado ou o projeto se tornará inviável da maneira como foi proposto.

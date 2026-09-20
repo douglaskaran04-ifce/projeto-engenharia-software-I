@@ -45,6 +45,15 @@ Requisitos consolidados no [Requisitos.md](requisitos.md):
 
 ### Requisitos Não-Funcionais (RNF)
 
+| ID | Categoria | Descrição |
+|---|---|---|
+| RNF-01 | Desempenho | O sistema deve retornar os resultados de uma busca por viagens disponíveis em um tempo máximo de 3 segundos. |
+| RNF-02 | Usabilidade | A interface do aplicativo deve se adaptar automaticamente a telas de dispositivos móveis com resoluções entre 320x568 pixels e 1440x3200 pixels. |
+| RNF-03 | Segurança | O sistema deve garantir a confidencialidade dos dados sensíveis dos usuários (como senhas e tokens de acesso) por meio de criptografia forte quando armazenados de forma persistente. |
+| RNF-04 | Confiabilidade | O sistema deve manter uma disponibilidade (uptime) mínima de 99,5% do tempo durante os dias letivos (segunda a sábado, das 06:00 às 23:59). |
+| RNF-05 | Segurança / Restrição Legal | O aplicativo deve exibir, no primeiro acesso, um Termo de Uso que declare explicitamente a proibição de uso da plataforma para fins lucrativos. |
+| RNF-06 | Portabilidade | O aplicativo cliente deve ser compatível para execução em dispositivos móveis que operem com o sistema operacional Android. |
+| RNF-07 | Portabilidade | O aplicativo cliente deve ser compatível para execução em dispositivos móveis que operem com o sistema operacional iOS. |
 
 ---
 

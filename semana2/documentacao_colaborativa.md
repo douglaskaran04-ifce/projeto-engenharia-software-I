@@ -3,6 +3,10 @@
 ## 1. Divisão de Papéis e Personas
 
 *   **Engenheiro de Requisitos (Douglas Karan):** Responsável por conduzir as entrevistas, documentar as necessidades e mediar os conflitos de interesse entre as partes.
+*   **Usuário Final: (Hércules)**
+   *   **Persona:** Lucas, 21 anos, estudante de Engenharia (período integral).
+   *   **O que quer do sistema:** Um aplicativo rápido, confiável e barato para ir e voltar do campus todos os dias sem depender de transporte público lotado.
+   *   **O que o frustra hoje:** Atrasos crônicos nos ônibus, dificuldade de combinar horários com colegas que têm carro e o constrangimento de cobrar/pagar o rateio do combustível em dinheiro trocado.
 *   **Gestor do Sistema:(Lariça)**
    *   **Persona:** Mariana, 28 anos, administradora de TI da universidade.
    *   **O que quer do sistema:** Uma plataforma segura, fácil de manter e integrada ao sistema de autenticação da universidade (SSO), garantindo que apenas alunos ativos usem.

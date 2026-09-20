@@ -53,7 +53,9 @@ Requisitos consolidados no [Requisitos.md](requisitos.md):
 
 
 ## 4. Viabilidade Econômica
+Diferente de aplicativos comerciais, este projeto é voltado estritamente à comunidade acadêmica, com divisão restrita de custos e vedação explícita de fins lucrativos em Termo de Uso (RF-03 e RNF-05). Isso significa que o sistema não gerará lucro com taxas por corrida ou assinaturas, impossibilitando a arrecadação de verba direta por parte dos desenvolvedores.
 
+Os custos de desenvolvimento inicial se traduzem em tempo e esforço da equipe estudantil. Já a manutenção contínua dependerá de infraestrutura básica em nuvem (servidores para o backend e banco de dados) e das taxas anuais das lojas de aplicativos App Store e Google Play. O benefício primário é o retorno social expressivo: a comunidade universitária vai economizar bastante nos custos diários de deslocamento, promovendo interação e reduzindo o impacto ambiental. A viabilidade a longo prazo pode ser sustentada caso a própria instituição "abrace" a infraestrutura (fornecendo os servidores) em reconhecimento ao benefício gerado para os estudantes.
 
 
 ## 5. Viabilidade Operacional

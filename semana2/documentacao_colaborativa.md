@@ -7,6 +7,10 @@
    *   **Persona:** Mariana, 28 anos, administradora de TI da universidade.
    *   **O que quer do sistema:** Uma plataforma segura, fácil de manter e integrada ao sistema de autenticação da universidade (SSO), garantindo que apenas alunos ativos usem.
    *   **O que a frustra hoje:** Aplicativos de terceiros que geram retrabalho para o suporte técnico interno ou que possuem vulnerabilidades no vazamento de dados dos alunos.
+*   **Dono do Sistema (Sponsor/DCE) (Eduardo):**
+   *   **Persona:** Prof. Roberto, 55 anos, Pró-Reitor de Assuntos Estudantis.
+   *   **O que quer do sistema:** Uma solução de baixo custo operacional que melhore a mobilidade, promova a sustentabilidade e reduza a superlotação do estacionamento do campus.
+   *   **O que o frustra hoje:** O alto custo financeiro com o fretamento de ônibus universitários e as constantes reclamações de falta de vagas de estacionamento.
 
 
 ## 2. Entrevistas (Notas do Engenheiro de Requisitos)

@@ -35,7 +35,7 @@ Descrevam em 2 a 3 frases o sistema fictício que o grupo adotou.
 | ID | Descrição |
 |---|---|
 | RF-01 | |
-| RF-02 | |
+| RF-02 | O sistema deve calcular e exibir um valor máximo financeiro para o rateio de cada viagem, com base na quilometragem total do trajeto percorrido.|
 | RF-03 | |
 | RF-04 | |
 | RF-05 | |
@@ -51,7 +51,7 @@ RF-01 | O sistema deve permitir que o usuário reserve uma quadra num horário d
 | ID | Categoria | Descrição |
 |---|---|---|
 | RNF-01 | | |
-| RNF-02 | | |
+| RNF-02 |Usabilidade|A interface do aplicativo deve se adaptar automaticamente (design responsivo) a telas de dispositivos móveis com resoluções entre 320x568 pixels e 1440x3200 pixels.|
 | RNF-03 | | |
 | RNF-04 | | |
 | RNF-05 | | |
@@ -72,7 +72,7 @@ Indiquem, quando fizer sentido, qual requisito não-funcional qualifica qual req
 
 | RF | RNF relacionado(s) |
 |---|---|
-| RF-01 | |
+| RF-01 | RNF03 |
 | RF-02 | |
 
 ---

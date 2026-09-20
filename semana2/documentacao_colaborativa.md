@@ -3,6 +3,11 @@
 ## 1. Divisão de Papéis e Personas
 
 *   **Engenheiro de Requisitos (Douglas Karan):** Responsável por conduzir as entrevistas, documentar as necessidades e mediar os conflitos de interesse entre as partes.
+*   **Gestor do Sistema:(Lariça)**
+   *   **Persona:** Mariana, 28 anos, administradora de TI da universidade.
+   *   **O que quer do sistema:** Uma plataforma segura, fácil de manter e integrada ao sistema de autenticação da universidade (SSO), garantindo que apenas alunos ativos usem.
+   *   **O que a frustra hoje:** Aplicativos de terceiros que geram retrabalho para o suporte técnico interno ou que possuem vulnerabilidades no vazamento de dados dos alunos.
+
 
 ## 2. Entrevistas (Notas do Engenheiro de Requisitos)
 

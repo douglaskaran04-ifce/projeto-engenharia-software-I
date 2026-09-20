@@ -34,8 +34,8 @@ Descrevam em 2 a 3 frases o sistema fictício que o grupo adotou.
 
 | ID | Descrição |
 |---|---|
-| RF-01 | |
-| RF-02 | |
+| RF-01 | O sistema deve permitir o cadastro de usuários exclusivamente através das credenciais do sistema de autenticação (SSO) da universidade. |
+| RF-02 | O sistema deve permitir o acesso (login) de usuários exclusivamente através das credenciais do sistema de autenticação (SSO) da universidade. |
 | RF-03 | O sistema deve calcular um valor máximo financeiro para o rateio de cada viagem com base na quilometragem total do trajeto percorrido. |
 | RF-04 | O sistema deve exibir o valor máximo financeiro calculado para o rateio de cada viagem. |
 | RF-05 | O sistema deve permitir que um passageiro solicite a reserva de uma vaga em uma viagem previamente ofertada. |
@@ -54,7 +54,7 @@ RF-01 | O sistema deve permitir que o usuário reserve uma quadra num horário d
 
 | ID | Categoria | Descrição |
 |---|---|---|
-| RNF-01 | | |
+| RNF-01 |Desempenho |O sistema deve retornar os resultados de uma busca por viagens disponíveis em um tempo máximo de 3 segundos. |
 | RNF-02 |Usabilidade|A interface do aplicativo deve se adaptar automaticamente (design responsivo) a telas de dispositivos móveis com resoluções entre 320x568 pixels e 1440x3200 pixels.|
 | RNF-03 |Segurança |O sistema deve garantir a confidencialidade dos dados sensíveis dos usuários (como senhas e tokens de acesso) por meio de criptografia forte quando armazenados de forma persistente. |
 | RNF-04 |Confiabilidade|O sistema deve manter uma disponibilidade (uptime) mínima de 99,5% do tempo durante os dias letivos (segunda a sábado, das 06:00 às 23:59).|
@@ -80,6 +80,7 @@ Indiquem, quando fizer sentido, qual requisito não-funcional qualifica qual req
 | RF-01 | RNF02,RNF03,RNF05,RNF06,RNF07 |
 | RF-03 | |
 | RF-05 |RNF02 E RNF-06/RNF-07 |
+| RF-04 | RNF02 e RNF06/RNF07|
 | RF-06 e RF-07 | RNF-02 e RNF-06/RNF-07 |
 | RF-08 | RNF-03
 | RF-09 e RF-10 | RNF-02 e RNF-06/RNF-07

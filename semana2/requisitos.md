@@ -35,11 +35,13 @@ Descrevam em 2 a 3 frases o sistema fictício que o grupo adotou.
 | ID | Descrição |
 |---|---|
 | RF-01 | |
-| RF-02 | O sistema deve calcular e exibir um valor máximo financeiro para o rateio de cada viagem, com base na quilometragem total do trajeto percorrido.|
-| RF-03 | |
-| RF-04 | |
+| RF-02 | |
+| RF-03 | O sistema deve calcular um valor máximo financeiro para o rateio de cada viagem com base na quilometragem total do trajeto percorrido. |
+| RF-04 | O sistema deve exibir o valor máximo financeiro calculado para o rateio de cada viagem. |
 | RF-05 | |
 | RF-06 | |
+| RF-07 | |
+| RF-08 | |
 
 <!--
 Exemplo de como preencher (apagar esta linha e o exemplo abaixo depois):
@@ -56,6 +58,7 @@ RF-01 | O sistema deve permitir que o usuário reserve uma quadra num horário d
 | RNF-04 | | |
 | RNF-05 | | |
 | RNF-06 | | |
+| RNF-07 |Portabilidade| O aplicativo cliente deve ser compatível para execução em dispositivos móveis que operem com o sistema operacional iOS. |
 
 **Categorias possíveis:** Desempenho · Confiabilidade · Usabilidade · Segurança · Manutenibilidade · Portabilidade
 
@@ -72,7 +75,7 @@ Indiquem, quando fizer sentido, qual requisito não-funcional qualifica qual req
 
 | RF | RNF relacionado(s) |
 |---|---|
-| RF-01 | RNF03 |
+| RF-01 | RNF02,RNF03,RNF05,RNF06,RNF07 |
 | RF-02 | |
 
 ---

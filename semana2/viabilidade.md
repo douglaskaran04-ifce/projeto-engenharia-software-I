@@ -16,7 +16,7 @@
 | Campo | Preencher |
 |---|---|
 | Grupo | Equipe 4 |
-| Integrantes | — Lariça Geórgia, José Eduardo, Douglas Karan, Carlos Jefferson, Antônio Hércules|
+| Integrantes | Lariça Geórgia, José Eduardo, Douglas Karan, Carlos Jefferson, Antônio Hércules |
 | Disciplina | Engenharia de Software I |
 | Semana | 2 |
 | Data | 19/09/2026 |

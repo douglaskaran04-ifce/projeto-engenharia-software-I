@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="K_diasEmoQ9y45_1zXDk">
+    <mxGraphModel dx="1178" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9fxckwitP1cbrjv9T-ht-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" value="Motorista" vertex="1">
+          <mxGeometry height="60" width="30" x="359" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" value="Motorista" vertex="1">
+          <mxGeometry height="60" width="30" x="359" y="879" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Aplicativo" vertex="1">
+          <mxGeometry height="60" width="120" x="714" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Aplicativo" vertex="1">
+          <mxGeometry height="60" width="120" x="714" y="879" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-15" edge="1" parent="1" source="9fxckwitP1cbrjv9T-ht-4" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" target="9fxckwitP1cbrjv9T-ht-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="374" y="649" as="sourcePoint" />
+            <mxPoint x="374" y="309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-16" edge="1" parent="1" source="9fxckwitP1cbrjv9T-ht-10" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" target="9fxckwitP1cbrjv9T-ht-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="954" y="529" as="sourcePoint" />
+            <mxPoint x="1004" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;Backend (Sistema)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="954" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-20" edge="1" parent="1" source="9fxckwitP1cbrjv9T-ht-21" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" target="9fxckwitP1cbrjv9T-ht-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1194" y="529" as="sourcePoint" />
+            <mxPoint x="1244" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Backend (Sistema)" vertex="1">
+          <mxGeometry height="60" width="120" x="954" y="879" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;API de Mapas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1194" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-23" edge="1" parent="1" source="9fxckwitP1cbrjv9T-ht-24" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" target="9fxckwitP1cbrjv9T-ht-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1434" y="529" as="sourcePoint" />
+            <mxPoint x="1484" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="API de Mapas" vertex="1">
+          <mxGeometry height="60" width="120" x="1194" y="879" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="374" y="349" as="sourcePoint" />
+            <mxPoint x="774" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="374" y="429" as="sourcePoint" />
+            <mxPoint x="774" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="774" y="389" as="sourcePoint" />
+            <mxPoint x="374" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Preenche origem, destino e horário" vertex="1">
+          <mxGeometry height="20" width="200" x="474" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Solicita confirmação de rota" vertex="1">
+          <mxGeometry height="20" width="200" x="474" y="369" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Confirma dados da viagem" vertex="1">
+          <mxGeometry height="20" width="200" x="474" y="409" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="774" y="854" as="sourcePoint" />
+            <mxPoint x="374" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Exibe valor máximo de rateio e confirmação de criação (RF-04)" vertex="1">
+          <mxGeometry height="20" width="350" x="398" y="833" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="774" y="459" as="sourcePoint" />
+            <mxPoint x="1014" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1014" y="509" as="sourcePoint" />
+            <mxPoint x="1254" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-48" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1254" y="579" as="sourcePoint" />
+            <mxPoint x="1014" y="579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1014" y="824" as="sourcePoint" />
+            <mxPoint x="774" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-52" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;orthogonal=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1084" y="658" />
+              <mxPoint x="1084" y="688" />
+            </Array>
+            <mxPoint x="1014" y="658" as="sourcePoint" />
+            <mxPoint x="1014" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Calcula valor máximo financeiro para rateio (RF-03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="290" x="890" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Salva viagem no banco de dados com status &quot;Aberta&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="290" x="890" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-57" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;orthogonal=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1084" y="739" />
+              <mxPoint x="1084" y="769" />
+            </Array>
+            <mxPoint x="1014" y="739" as="sourcePoint" />
+            <mxPoint x="1014" y="769" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="Envia requisição para criar viagem" vertex="1">
+          <mxGeometry height="20" width="200" x="794" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Solicita rota e distância (km)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="1034" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Retorna distância total&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="1034" y="559" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Retorna detalhes da viagem criada&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="794" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Diagrama de Sequência | Ação 2: Oferta de Viagem e Cálculo de Rateio (RF-03, RF-04)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="800" x="354" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="9fxckwitP1cbrjv9T-ht-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;O motorista oferece uma viagem, e o sistema calcula o teto financeiro permitido com base na distância da rota.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="800" x="354" y="172" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

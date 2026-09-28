@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Y-68RiAw6GcwQyq28yx5">
+    <mxGraphModel dx="2357" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kw_NUDoO5tQORRb309Kp-33" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" value="Passageiro" vertex="1">
+          <mxGeometry height="60" width="30" x="234" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-34" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" value="Passageiro" vertex="1">
+          <mxGeometry height="60" width="30" x="234" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Aplicativo" vertex="1">
+          <mxGeometry height="60" width="120" x="589" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Aplicativo" vertex="1">
+          <mxGeometry height="60" width="120" x="589" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-37" edge="1" parent="1" source="kw_NUDoO5tQORRb309Kp-34" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" target="kw_NUDoO5tQORRb309Kp-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="249" y="637" as="sourcePoint" />
+            <mxPoint x="249" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-38" edge="1" parent="1" source="kw_NUDoO5tQORRb309Kp-36" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" target="kw_NUDoO5tQORRb309Kp-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="829" y="517" as="sourcePoint" />
+            <mxPoint x="879" y="467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;div&gt;Backend (Sistema)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="949" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-40" edge="1" parent="1" source="kw_NUDoO5tQORRb309Kp-41" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" target="kw_NUDoO5tQORRb309Kp-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1189" y="517" as="sourcePoint" />
+            <mxPoint x="1239" y="467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Backend (Sistema)" vertex="1">
+          <mxGeometry height="60" width="120" x="949" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="249" y="337" as="sourcePoint" />
+            <mxPoint x="649" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="249" y="587" as="sourcePoint" />
+            <mxPoint x="649" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="649" y="547" as="sourcePoint" />
+            <mxPoint x="249" y="547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Busca por viagens disponíveis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="349" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Exibe resultados&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="349" y="527" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Seleciona viagem e clica em &quot;Solicitar Reserva&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="280" x="309" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-51" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="649" y="842" as="sourcePoint" />
+            <mxPoint x="249" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Exibe mensagem &quot;Solicitação enviada ao motorista&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="350" x="273" y="821" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-53" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="649" y="447" as="sourcePoint" />
+            <mxPoint x="1009" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1009" y="830" as="sourcePoint" />
+            <mxPoint x="1349" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Consulta viagens compatíveis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="736" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Envia notificação (&quot;Nova solicitação de carona recebida&quot;)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="310" x="1028" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Diagrama de Sequência | Ação 3: Solicitação de Reserva de Vaga (RF-05)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="800" x="425" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;O passageiro pesquisa viagens disponíveis e envia uma solicitação de carona para o motorista de uma viagem específica.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="800" x="425" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-67" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1009" y="491" as="sourcePoint" />
+            <mxPoint x="649" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Retorna lista de viagens (em até 3 segs: RNF-01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="280" x="693" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-69" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="649" y="670" as="sourcePoint" />
+            <mxPoint x="1009" y="673" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-70" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1009" y="714" as="sourcePoint" />
+            <mxPoint x="649" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Confirma recebimento da solicitação&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="280" x="692.5" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;Registra solicitação de vaga (Status: Pendente) (RF-05)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="303" x="681" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-74" edge="1" parent="1" source="kw_NUDoO5tQORRb309Kp-76" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" target="kw_NUDoO5tQORRb309Kp-75" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1348" y="637" as="sourcePoint" />
+            <mxPoint x="1348" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-75" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" value="Motorista" vertex="1">
+          <mxGeometry height="60" width="30" x="1333" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="kw_NUDoO5tQORRb309Kp-76" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" value="Motorista" vertex="1">
+          <mxGeometry height="60" width="30" x="1333" y="867" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

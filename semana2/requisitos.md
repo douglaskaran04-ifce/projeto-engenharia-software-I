@@ -78,7 +78,7 @@ Indiquem, quando fizer sentido, qual requisito não-funcional qualifica qual req
 | RF | RNF relacionado(s) |
 |---|---|
 | RF-01 | RNF02,RNF03,RNF05,RNF06,RNF07 |
-| RF-03 | |
+| RF-03 | RNF04 |
 | RF-05 |RNF02 E RNF-06/RNF-07 |
 | RF-04 | RNF02 e RNF06/RNF07|
 | RF-06 e RF-07 | RNF-02 e RNF-06/RNF-07 |
@@ -88,7 +88,7 @@ Indiquem, quando fizer sentido, qual requisito não-funcional qualifica qual req
 
 ### Checklist antes de entregar
 
-- [ ] Cada requisito é **verificável** (dá pra testar se foi atendido ou não)
-- [ ] Cada requisito é **não ambíguo** (só uma leitura possível)
-- [ ] Cada requisito é **atômico** (descreve uma coisa só)
+- [x] Cada requisito é **verificável** (dá pra testar se foi atendido ou não)
+- [x] Cada requisito é **não ambíguo** (só uma leitura possível)
+- [x] Cada requisito é **atômico** (descreve uma coisa só)
 - [ ] Nenhum requisito descreve uma **solução de projeto** (tecnologia, banco de dados, biblioteca específica)

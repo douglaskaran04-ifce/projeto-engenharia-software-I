@@ -43,11 +43,11 @@
 
 > _os diagramas detalharam o comportamento e a arquitetura do aplicativo: o Diagrama de Casos de Uso mapeou as interações dos atores (Passageiro, Motorista e o SSO acadêmico) com as funcionalidades centrais do sistema, como criar viagens, solicitar vagas, avaliar usuários e compartilhar rotas via WhatsApp; o Diagrama de Classes definiu a estrutura de dados, aplicando herança a partir de uma classe base Usuario e relacionando entidades essenciais como Carona, Reserva e HistoricoViagem (fundamental para registrar trajetos e notas); por fim, cinco Diagramas de Sequência ilustraram a linha do tempo lógica e as trocas de mensagens entre sistema e banco de dados para os processos críticos do app: autenticação institucional elaborado por Douglas Karan, oferta de carona com cálculo de rateio elaborado por Eduardo, fluxos de reserva elaborado por Lariça, fluxo de aprovação elaborado por Carlos e conclusão do trajeto com avaliação bilateral elaborado pelo Hércules._
 
-🔗 [semana3/Diagrama de Casos de Uso/Diagrama_de_Casos_de_uso.drawio](semana3/Diagrama_de_Casos_de_uso.drawio), incluindo `Diagrama_de_Casos_de_uso.drawio`
+🔗 [semana3/Diagrama de Casos de Uso/Diagrama_de_Casos_de_uso.drawio](semana3/), incluindo `Diagrama_de_Casos_de_uso.drawio`
 
-🔗 [semana3/Diagrama de Classes/Diagrama_de_Classe.drawio](semana3/Diagrama de Classes/Diagrama_de_Classe.drawio), incluindo `Diagrama_de_Classe.drawio`
+🔗 [semana3/Diagrama de Classes/Diagrama_de_Classe.drawio](semana3/), incluindo `Diagrama_de_Classe.drawio`
 
-🔗 [semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio](semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio), incluindo `Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio`
+🔗 [semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio](semana3/), incluindo `Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio`
 
 ## 6. Modelo de Processo (Semana 4)
 

@@ -29,7 +29,7 @@
 
 ## 3. Fundamentos do Sistema (Semana 1)
 
-> _Escreva aqui_
+> _O sistema exige Engenharia de Software para gerenciar sua alta complexidade — como geolocalização e match em tempo real — e suportar picos intensos de acesso sem sofrer com quedas, vazamentos de dados ou uma base de código insustentável. Essa robustez, que viabiliza o trabalho coordenado da equipe de desenvolvimento, é sustentada pela aplicação de quatro pilares: a modularidade, que isola responsabilidades em componentes independentes (autenticação, match, chat, avaliações e notificações); a qualidade, focada em confiabilidade, proteção de dados sensíveis e uma usabilidade ágil que não distrai o motorista; a manutenibilidade, que estrutura o projeto para manutenções evolutivas (como integração com PIX) e adaptativas (atualizações de APIs e sistemas operacionais); e as boas práticas, que combinam documentação atualizada, versionamento com Git e rigorosa padronização de código para garantir que todos programem de forma uniforme e livre de conflitos._
 
 🔗 [semana1/](semana1/)
 

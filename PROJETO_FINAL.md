@@ -41,13 +41,15 @@
 
 ## 5. Modelagem UML (Semana 3)
 
-> _os diagramas detalharam o comportamento e a arquitetura do aplicativo: o Diagrama de Casos de Uso mapeou as interações dos atores (Passageiro, Motorista e o SSO acadêmico) com as funcionalidades centrais do sistema, como criar viagens, solicitar vagas, avaliar usuários e compartilhar rotas via WhatsApp; o Diagrama de Classes definiu a estrutura de dados, aplicando herança a partir de uma classe base Usuario e relacionando entidades essenciais como Carona, Reserva e HistoricoViagem (fundamental para registrar trajetos e notas); por fim, cinco Diagramas de Sequência ilustraram a linha do tempo lógica e as trocas de mensagens entre sistema e banco de dados para os processos críticos do app: autenticação institucional elaborado por Douglas Karan, oferta de carona com cálculo de rateio elaborado por Eduardo, fluxos de reserva elaborado por Lariça, fluxo de aprovação elaborado por Carlos e conclusão do trajeto com avaliação bilateral elaborado pelo Hércules._
+> _Os diagramas detalharam o comportamento e a arquitetura do aplicativo: o Diagrama de Casos de Uso mapeou as interações dos atores (Passageiro, Motorista e o SSO acadêmico) com as funcionalidades centrais do sistema, como criar viagens, solicitar vagas, avaliar usuários e compartilhar rotas via WhatsApp; o Diagrama de Classes definiu a estrutura de dados, aplicando herança a partir de uma classe base Usuario e relacionando entidades essenciais como Carona, Reserva e HistoricoViagem (fundamental para registrar trajetos e notas); por fim, cinco Diagramas de Sequência ilustraram a linha do tempo lógica e as trocas de mensagens entre sistema e banco de dados para os processos críticos do app: autenticação institucional elaborado por Douglas Karan, oferta de carona com cálculo de rateio elaborado por Eduardo, fluxos de reserva elaborado por Lariça, fluxo de aprovação elaborado por Carlos e conclusão do trajeto com avaliação bilateral elaborado pelo Hércules._
 
 🔗 [semana3/Diagrama de Casos de Uso/Diagrama_de_Casos_de_uso.drawio](semana3/), incluindo `Diagrama_de_Casos_de_uso.drawio`
 
 🔗 [semana3/Diagrama de Classes/Diagrama_de_Classe.drawio](semana3/), incluindo `Diagrama_de_Classe.drawio`
 
 🔗 [semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio](semana3/), incluindo `Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio`
+
+🔗 [semana3/Diagramas de Sequência/Ação_5 Conclusão da Viagem, Histórico e Avaliação.drawio](semana3/) incluindo `Conclusão da Viagem, Histórico e Avaliação.drawio`
 
 ## 6. Modelo de Processo (Semana 4)
 
@@ -79,7 +81,7 @@
 
 ### Tipo de manutenção
 
-> _Escreva aqui_
+> _Analisando o escopo original do projeto, podemos ver que o sistema já previa o login via SSO (RF-01 e RF-02), mas não exigia a checagem do status ativo da matrícula, tampouco possuía um requisito funcional para a emissão de relatórios gerenciais para a universidade. Com base nisso, esse novo cenário de mudança imposto pela universidade parceira engloba dois tipos de manutenção distintos: Manutenção Adaptativa e Manutenção Perfectiva. A manutenção adaptativa ocorre quando o software precisa ser modificado para continuar funcionando frente a mudanças em seu ambiente externo. No projeto original, bastava ter uma credencial do SSO (RF-01 e RF-02) para acessar o app. Como a universidade parceira — que é o ambiente externo fornecedor da autenticação — alterou a sua política de uso/regra de negócio, restringindo agora apenas a alunos ativos, o aplicativo precisará adaptar sua comunicação com a API do SSO para verificar esse novo status. O software não estava com defeito; ele apenas precisou se adequar a uma nova realidade imposta pelo meio externo. A manutenção perfectiva acontece quando o sistema sofre modificações para atender a novos requisitos dos usuários e ou gestores, melhorando o software ou adicionando novas funcionalidades (features). Ao analisar o Documento de Requisitos da Semana 2, não havia nenhum requisito funcional prevendo a geração de relatórios mensais para a instituição. Portanto, criar essa interface e extrair esses dados do banco de dados, que já armazena o Histórico de Viagens conforme o RF-08, configura uma evolução direta das capacidades do sistema para satisfazer uma nova necessidade da universidade._
 
 ### Análise de impacto
 

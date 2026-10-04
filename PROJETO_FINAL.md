@@ -49,7 +49,7 @@
 
 🔗 [semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio](semana3/), incluindo `Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio`
 
-🔗 [semana3/Diagramas de Sequência/Ação_5 Conclusão da Viagem, Histórico e Avaliação (RF-08, RF-09, RF-10)(3).drawio](semana3/) incluindo `Conclusão da Viagem, Histórico e Avaliação.drawio`
+🔗 [semana3/Diagramas de Sequência/Ação_5 Conclusão da Viagem, Histórico e Avaliação.drawio](semana3/) incluindo `Conclusão da Viagem, Histórico e Avaliação.drawio`
 
 ## 6. Modelo de Processo (Semana 4)
 

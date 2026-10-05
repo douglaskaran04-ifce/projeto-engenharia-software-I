@@ -35,7 +35,7 @@
 
 ## 4. Requisitos e Viabilidade (Semana 2)
 
-> _Escreva aqui_
+> _O processo de elicitação do aplicativo de caronas envolveu entrevistas com estudantes, setor de TI, patrocinadores e reguladores, resolvendo conflitos de interesse ao substituir mapas integrados onerosos pelo compartilhamento de localização via WhatsApp, equilibrando assim a segurança demandada pelo usuário com o baixo custo exigido pelo projeto. Essa etapa baseou os requisitos funcionais consolidados, focados em login acadêmico (SSO), cálculo de rateio sem fins lucrativos, gestão de reservas e avaliações bilaterais, sustentados por requisitos não-funcionais que exigem buscas rápidas (até 3 segundos), responsividade multiplataforma (Android/iOS), alta disponibilidade e dados criptografados. Ao analisar as dimensões técnica, econômica e operacional, o estudo concluiu que a solução tem altíssimo potencial social e rápida adesão por ser similar a apps do mercado, mas é considerada "viável com ressalvas", uma vez que o aplicativo não gerará lucro e a sua segurança depende inteiramente da aprovação da TI da universidade para integrar o sistema institucional e custear a infraestrutura em nuvem._
 
 🔗 [semana2/requisitos.md](semana2/requisitos.md) · [semana2/viabilidade.md](semana2/viabilidade.md)
 
@@ -48,6 +48,8 @@
 🔗 [semana3/Diagrama de Classes/Diagrama_de_Classe.drawio](semana3/), incluindo `Diagrama_de_Classe.drawio`
 
 🔗 [semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio](semana3/), incluindo `Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio`
+
+🔗 [semana3\Diagramas de Sequência\Ação_2_Oferta de Viagem e Cálculo de Rateio (RF-03, RF-04).drawio](semana3/), incluindo `Ação_2_Oferta de Viagem e Cálculo de Rateio (RF-03, RF-04).drawio`
 
 🔗 [semana3/Diagramas de Sequência/Ação_5 Conclusão da Viagem, Histórico e Avaliação.drawio](semana3/) incluindo `Conclusão da Viagem, Histórico e Avaliação.drawio`
 

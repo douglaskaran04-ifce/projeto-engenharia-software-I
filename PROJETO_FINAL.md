@@ -47,6 +47,12 @@
 
 🔗 [semana3/Diagrama de Classes/Diagrama_de_Classe.drawio](semana3/), incluindo `Diagrama_de_Classe.drawio`
 
+🔗 [semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio](semana3/), incluindo `Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio`
+
+🔗 [semana3\Diagramas de Sequência\Ação_2_Oferta de Viagem e Cálculo de Rateio (RF-03, RF-04).drawio](semana3/), incluindo `Ação_2_Oferta de Viagem e Cálculo de Rateio (RF-03, RF-04).drawio`
+
+🔗 [semana3/Diagramas de Sequência/Ação_5 Conclusão da Viagem, Histórico e Avaliação.drawio](semana3/) incluindo `Conclusão da Viagem, Histórico e Avaliação.drawio`
+
 🔗 [semana3/Diagramas de Sequência/](semana3/), incluindo `Diagramas de Sequência`
 
 ## 6. Modelo de Processo (Semana 4)

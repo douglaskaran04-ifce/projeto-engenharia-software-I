@@ -35,7 +35,7 @@
 
 ## 4. Requisitos e Viabilidade (Semana 2)
 
-> _Escreva aqui_
+> _O processo de elicitação do aplicativo de caronas envolveu entrevistas com estudantes, setor de TI, patrocinadores e reguladores, resolvendo conflitos de interesse ao substituir mapas integrados onerosos pelo compartilhamento de localização via WhatsApp, equilibrando assim a segurança demandada pelo usuário com o baixo custo exigido pelo projeto. Essa etapa baseou os requisitos funcionais consolidados, focados em login acadêmico (SSO), cálculo de rateio sem fins lucrativos, gestão de reservas e avaliações bilaterais, sustentados por requisitos não-funcionais que exigem buscas rápidas (até 3 segundos), responsividade multiplataforma (Android/iOS), alta disponibilidade e dados criptografados. Ao analisar as dimensões técnica, econômica e operacional, o estudo concluiu que a solução tem altíssimo potencial social e rápida adesão por ser similar a apps do mercado, mas é considerada "viável com ressalvas", uma vez que o aplicativo não gerará lucro e a sua segurança depende inteiramente da aprovação da TI da universidade para integrar o sistema institucional e custear a infraestrutura em nuvem._
 
 🔗 [semana2/requisitos.md](semana2/requisitos.md) · [semana2/viabilidade.md](semana2/viabilidade.md)
 
@@ -47,9 +47,7 @@
 
 🔗 [semana3/Diagrama de Classes/Diagrama_de_Classe.drawio](semana3/), incluindo `Diagrama_de_Classe.drawio`
 
-🔗 [semana3/Diagramas de Sequência/Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio](semana3/), incluindo `Ação_1_Autenticação_e_Cadastro_via_SSO_Institucional.drawio`
-
-🔗 [semana3/Diagramas de Sequência/Ação_5 Conclusão da Viagem, Histórico e Avaliação.drawio](semana3/) incluindo `Conclusão da Viagem, Histórico e Avaliação.drawio`
+🔗 [semana3/Diagramas de Sequência/](semana3/), incluindo `Diagramas de Sequência`
 
 ## 6. Modelo de Processo (Semana 4)
 
@@ -63,11 +61,9 @@
 >
 >_Incremental Puro: Embora lide melhor com entregas do que o Cascata, o modelo incremental tradicional ainda exige um planejamento arquitetural pesado logo no início para todos os incrementos, não tendo a mesma flexibilidade do Ágil para descartar ou reinventar rotas no meio do projeto._
 >
->_Espiral: O modelo Espiral, voltado para sistemas críticos e complexos, é muito caro e burocrático para o desenvolvimento de um app de caronas por uma equipe pequena. Nesse cenário, a metodologia Ágil é a opção ideal, pois gerencia os riscos de forma mais leve e eficiente através das Sprints._ 
->
 >_Framework Escolhido: Scrum Dentro da abordagem ágil, o framework ideal para este sistema é o Scrum. Ele se adequa bem porque traz uma organização essencial para equipes pequenas/acadêmicas por meio de rituais claros (Sprints, Dailies, Reviews), garantindo que o desenvolvimento não perca o foco._
 >
->_Como lidar com mudanças: Caso surja uma alteração (por exemplo, o órgão de trânsito exige uma nova restrição ou a universidade altera sua política de SSO), essa mudança não paralisa o trabalho atual. A nova necessidade é transformada em uma nova "História de Usuário" e inserida no Product Backlog. Na próxima reunião de planejamento (Sprint Planning), o grupo avalia e prioriza essa mudança para ser desenvolvida na Sprint seguinte. Isso garante flexibilidade imediata e controle sobre o que está sendo alterado._
+>_Como lidar com mudanças: Caso surja uma alteração (por exemplo, o órgão de trânsito exige uma nova restrição ou a universidade altera sua política de SSO), essa mudança não paralisa o trabalho atual. A nova necessidade é transformada em uma "História de Usuário" e inserida no Product Backlog. Na próxima reunião de planejamento (Sprint Planning), o grupo avalia e prioriza essa mudança para ser desenvolvida na Sprint seguinte. Isso garante flexibilidade imediata e controle sobre o que está sendo alterado._
 
 🔗 [semana4/](semana4/)
 
@@ -85,4 +81,4 @@
 
 ### Análise de impacto
 
-> _Escreva aqui_
+> _A mudança solicitada pela universidade parceira gera um efeito em cadeia nos artefatos produzidos nas semanas anteriores, exigindo atualizações documentais, embora os princípios fundamentais do projeto permaneçam os mesmos. Pelo contrário, os pilares da segurança e da manutenibilidade, discutidos na primeira semana, são validados na prática, uma vez que o aplicativo prova sua capacidade de se adaptar e proteger o ecossistema acadêmico. Em relação aos stakeholders mapeados, nenhuma persona nova precisa ser criada, mas os interesses da gestora de TI e do patrocinador do projeto são diretamente atendidos e reforçados, especialmente pelo controle de auditoria que o novo relatório proporcionará. No entanto, o documento de requisitos precisará de alterações diretas. Os requisitos funcionais originais que tratavam do cadastro e login via SSO deverão ser reescritos para incluir a obrigatoriedade da validação do status ativo da matrícula, e será necessário adicionar um requisito inédito voltado exclusivamente para a geração do relatório mensal de viagens, o que também pode puxar a criação de um requisito não-funcional definindo o desempenho ou o formato desse arquivo exportado.Essas alterações de escopo impactam imediatamente o estudo de viabilidade técnica. Se antes o projeto já era considerado viável com ressalvas devido à dependência da TI da universidade para autorizar o login, agora o risco e a complexidade aumentam, pois a API institucional precisará obrigatoriamente fornecer os dados do status acadêmico do aluno, sob pena de inviabilizar o serviço caso essa infraestrutura seja muito engessada. No campo da modelagem, os diagramas UML da terceira semana refletirão essas mudanças sistêmicas. O diagrama de casos de uso ganhará um ator com perfil gestor interligado à ação de gerar relatórios, enquanto o diagrama de classes exigirá a inclusão de um atributo validador de matrícula na classe de usuário, além de possivelmente uma classe controladora para compilar os históricos de viagens já modelados. Consequentemente, o diagrama de sequência focado na autenticação precisará exibir um fluxo alternativo de erro capaz de barrar a entrada de ex-alunos inativos. Por fim, apesar de tantas ramificações nos artefatos, o modelo de processo ágil escolhido anteriormente não precisa mudar, mostrando-se a decisão correta. Abordagens como o Scrum absorvem solicitações tardias com naturalidade, tratando a adaptação do login e a criação do relatório como novas histórias de usuário que serão simplesmente adicionadas ao backlog do produto e priorizadas pela equipe para as próximas etapas de desenvolvimento, sem paralisar o trabalho em andamento._
